@@ -14,9 +14,22 @@ export const ProjectsContainer = styled.div`
   color: white;
 
   @media (max-width: 768px) {
-    padding: 30px;
+    padding: 40px;
+    margin: 70px auto;
+    width: 90%;
+    border-radius: 18px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 25px;
+    margin: 50px auto 0;  /* Prevents left-side margin issues */
+    width: calc(100% - 30px); /* Ensures content doesn't touch the screen edges */
+    border-radius: 15px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   }
 `;
+
+
 
 // Heading with Gradient Effect
 export const Heading = styled.h2`

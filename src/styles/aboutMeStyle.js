@@ -2,21 +2,34 @@ import styled from "@emotion/styled";
 
 // About Me Main Container
 export const AboutContainer = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
-  padding: 50px;
+  padding: 40px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
   @media (max-width: 768px) {
-    padding: 30px;
+    width: 95%;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+  }
+
+  @media (max-width: 480px) {
+    padding: 20px;
+    font-size: 14px;
+    width: calc(100% - 30px); /* Prevents left-side cutoff */
+    margin: 20px auto 0; /* Ensures it doesn’t push too far to the left */
+    border-radius: 8px;
   }
 `;
+
+
 
 // Animated Heading
 export const Heading = styled.h2`

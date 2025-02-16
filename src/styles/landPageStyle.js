@@ -2,25 +2,38 @@ import styled from "@emotion/styled";
 
 // Landing Page Main Container
 export const LandingContainer = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
-  margin: 100px auto;
+  margin: 50px auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 50px;
+  padding: 40px;
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
   color: white;
-  border-radius: 20px;
+  border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
   @media (max-width: 768px) {
     flex-direction: column;
     text-align: center;
-    padding: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    width: 95%;
+    margin: 30px auto;
+  }
+
+  @media (max-width: 480px) {
+    padding: 20px;
+    font-size: 14px;
+    width: calc(100% - 30px); /* Ensures no overflow and adjusts left/right margins */
+    margin: 20px auto 0; /* Prevents left margin issue */
+    border-radius: 8px;
   }
 `;
+
+
 
 // Left Section (Text Content)
 export const LeftSection = styled.div`
