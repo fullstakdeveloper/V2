@@ -17,7 +17,7 @@ const AboutMe = () => {
 
       <BioText>
         I am a <b>curious and motivated individual</b> who developed programming skills from my <b>childhood love for Lego building</b>.
-        With sharp attention to detail and a passion for <b>roblem-solving</b>, I expertly transformed simple bricks into intricate structures",
+        With sharp attention to detail and a passion for <b>problem-solving</b>, I expertly transformed simple bricks into intricate structures,
         applying coding principles to bring my creations to life.
       </BioText>
 

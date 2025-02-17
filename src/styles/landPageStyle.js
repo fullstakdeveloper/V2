@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 // Landing Page Main Container
 export const LandingContainer = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
   margin: 50px auto;
   display: flex;
@@ -16,19 +16,19 @@ export const LandingContainer = styled.div`
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
   @media (max-width: 790px) {
-    flex-direction: column;
     text-align: center;
     padding: 25px;
     border-radius: 10px;
     width: 90%;
     margin: 30px auto;
+    flex-direction: column;
   }
 
   @media (max-width: 500px) {
     padding: 20px;
     font-size: 14px;
-    width: calc(100% - 30px); /* Ensures no overflow and adjusts left/right margins */
-    margin: 20px auto 0; /* Prevents left margin issue */
+    width: 80%;
+    margin: 20px auto 0;
     border-radius: 8px;
   }
 `;
@@ -61,9 +61,14 @@ export const ProfileImage = styled.img`
   box-shadow: 0px 4px 15px rgba(255, 255, 255, 0.2);
   margin-bottom: 20px;
 
-  @media (max-width: 768px) {
+  @media (max-width: 790px) {
     width: 200px;
     height: 200px;
+    margin-top: 20px;
+  }
+
+  @media (max-width: 500px) {
+    margin-top: 20px;
   }
 `;
 

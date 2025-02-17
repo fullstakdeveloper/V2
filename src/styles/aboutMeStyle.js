@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 // About Me Main Container
 export const AboutContainer = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
   margin: 50px auto;
   text-align: center;
@@ -13,17 +13,17 @@ export const AboutContainer = styled.div`
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
-  @media (max-width: 768px) {
-    width: 95%;
+  @media (max-width: 790px) {
+    width: 90%;
     margin: 30px auto;
     padding: 25px;
     border-radius: 10px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     padding: 20px;
     font-size: 14px;
-    width: calc(100% - 30px); /* Prevents left-side cutoff */
+    width: 80%; /* Prevents left-side cutoff */
     margin: 20px auto 0; /* Ensures it doesn’t push too far to the left */
     border-radius: 8px;
   }

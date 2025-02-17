@@ -2,7 +2,7 @@ import styled from "@emotion/styled";
 
 // Main Projects Page Container
 export const ProjectsContainer = styled.div`
-  width: 90%;
+  width: 100%;
   max-width: 1100px;
   margin: 50px auto;
   text-align: center;
@@ -23,8 +23,7 @@ export const ProjectsContainer = styled.div`
   @media (max-width: 500px) {
     padding: 25px;
     margin: 50px auto 0; 
-    width: 90%; 
-    max-width: 90%; 
+    width: 80%; 
     border-radius: 15px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   }

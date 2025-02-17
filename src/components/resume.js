@@ -38,11 +38,11 @@ const Resume = () => {
         <SectionTitle>Experience</SectionTitle>
         <SectionText>
           <strong>Youth Tech Labs</strong> (Apr 2024 – Sep 2024)  
-          Website Manager/AI Challenges Developer - Organized website redesign and developed AI challenges.
+          Website Manager/AI Challenges Developer - redesigned website and developed AI challenges.
         </SectionText>
         <SectionText>
           <strong>Sera4</strong> (Sept 2024 – Current)  
-          Software Engineering Intern - Fixing front-end bugs, optimizing UI, and improving performance.
+          Software Engineering Intern - Fixing front-end bugs, optimized UI, and improved performance.
         </SectionText>
       </Section>
 

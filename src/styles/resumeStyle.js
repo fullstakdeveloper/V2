@@ -24,7 +24,7 @@ export const ResumeContainer = styled(motion.div)`
   @media (max-width: 480px) {
     padding: 20px;
     margin: 60px auto 0;  /* Adjusted margin to prevent left-side issues */
-    width: calc(100% - 30px); /* Ensures it does not touch the edges */
+    width: 80%;
     border-radius: 15px;
     box-shadow: 0px 3px 10px rgba(255, 255, 255, 0.1);
   }
