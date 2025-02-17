@@ -16,18 +16,18 @@ const AboutMe = () => {
       <Heading>About Me</Heading>
 
       <BioText>
-        Jashan is a "curious and motivated individual" who developed programming skills from his "childhood love for Lego building".
-        With sharp attention to detail and a passion for "problem-solving", he expertly transformed "simple bricks into intricate structures",
-        applying coding principles to bring his creations to life.
+        I am a <b>curious and motivated individual</b> who developed programming skills from my <b>childhood love for Lego building</b>.
+        With sharp attention to detail and a passion for <b>roblem-solving</b>, I expertly transformed simple bricks into intricate structures",
+        applying coding principles to bring my creations to life.
       </BioText>
 
       <BioText>
-        His "programming journey" began when his father "enrolled him in a web development course". What started as a small step "turned into an adventure",
-        leading him to "Python, JavaScript, and React". With each project, Jashan explores the "artistry in simplicity" and the "logic in complexity".
+        My programming journey began when I enrolled into a <b>web-development</b> course. What started as a small step <b>turned into an adventure,
+        leading me to</b> Python, JavaScript, and React. With each project, I explore the <b>artistry in simplicity</b> and the <b>logic in complexity</b>.
       </BioText>
 
       <BioText>
-        "Join him on this journey**, where every click and scroll "tells a story of growth, mastery, and the limitless potential of programming."
+        <b>Join me on this journey</b>, where every click and scroll <b>tells a story of growth, mastery, and the limitless potential of programming.</b>
       </BioText>
 
       {/* Skills Section */}

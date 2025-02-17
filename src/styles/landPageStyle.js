@@ -15,16 +15,16 @@ export const LandingContainer = styled.div`
   border-radius: 15px;
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
 
-  @media (max-width: 768px) {
+  @media (max-width: 790px) {
     flex-direction: column;
     text-align: center;
     padding: 25px;
     border-radius: 10px;
-    width: 95%;
+    width: 90%;
     margin: 30px auto;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     padding: 20px;
     font-size: 14px;
     width: calc(100% - 30px); /* Ensures no overflow and adjusts left/right margins */

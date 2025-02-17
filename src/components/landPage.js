@@ -19,8 +19,7 @@ const LandingPage = () => {
       <LeftSection>
         <Heading>Welcome to My World</Heading>
         <SubHeading>
-          Hi, I'm Jashan Singh, a passionate "Full Stack Developer & Problem Solver". 
-          I create web applications that blend **creativity and technology** to deliver smooth, high-quality user experiences.
+        Hi, I'm Jashan Singh, a passionate <b>Full Stack Developer & Problem Solver</b> dedicated to building dynamic web applications that seamlessly merge <b>creativity and technology</b> for intuitive, high-quality user experiences.
         </SubHeading>
         <SubHeading>
           Explore my journey through programming, where every project and every challenge shapes me into a better developer.
@@ -28,16 +27,16 @@ const LandingPage = () => {
 
         {/* Social Links */}
         <SocialLinks>
-          <SocialButton href="https://github.com/" target="_blank">
+          <SocialButton href="https://github.com/fullstakdeveloper" target="_blank">
             <FaGithub />
           </SocialButton>
-          <SocialButton href="https://linkedin.com/" target="_blank">
+          <SocialButton href="https://www.linkedin.com/in/jashan-singh-48b9592a0/" target="_blank">
             <FaLinkedin />
           </SocialButton>
-          <SocialButton href="https://instagram.com/" target="_blank">
+          <SocialButton href="https://www.instagram.com/jashan_singh1437/" target="_blank">
             <FaInstagram />
           </SocialButton>
-          <SocialButton href="mailto:your@email.com">
+          <SocialButton href="mailto:pupru.edu2k7@gmail.com">
             <FaEnvelope />
           </SocialButton>
         </SocialLinks>

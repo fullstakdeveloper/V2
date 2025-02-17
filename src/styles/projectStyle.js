@@ -2,9 +2,9 @@ import styled from "@emotion/styled";
 
 // Main Projects Page Container
 export const ProjectsContainer = styled.div`
-  width: 100%;
+  width: 90%;
   max-width: 1100px;
-  margin: 100px auto;
+  margin: 50px auto;
   text-align: center;
   padding: 50px;
   background: rgba(255, 255, 255, 0.1);
@@ -13,21 +13,23 @@ export const ProjectsContainer = styled.div`
   box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
   color: white;
 
-  @media (max-width: 768px) {
+  @media (max-width: 790px) {
     padding: 40px;
     margin: 70px auto;
     width: 90%;
     border-radius: 18px;
   }
 
-  @media (max-width: 480px) {
+  @media (max-width: 500px) {
     padding: 25px;
-    margin: 50px auto 0;  /* Prevents left-side margin issues */
-    width: calc(100% - 30px); /* Ensures content doesn't touch the screen edges */
+    margin: 50px auto 0; 
+    width: 90%; 
+    max-width: 90%; 
     border-radius: 15px;
     box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
   }
 `;
+
 
 
 

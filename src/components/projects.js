@@ -14,19 +14,19 @@ const projects = [
     title: "Protivity",
     description:
       "A productivity-boosting website that simplifies task management with visual aids like bar and pie graphs, helping users stay organized efficiently.",
-    github: "https://github.com/yourusername/protivity"
+    github: "https://github.com/sebandx/Protivity"
   },
   {
     title: "CCC Problem Solutions",
     description:
       "A collection of well-documented solutions for Canadian Computing Competition (CCC) problems, featuring optimized solutions and explanations.",
-    github: "https://github.com/yourusername/ccc-solutions"
+    github: "https://github.com/BerryMachine/Senior-CCC-Python"
   },
   {
     title: "ShopDog",
     description:
       "A cashierless store system using RFID and Stripe for seamless transactions. 2nd place winner at NeoDeveloper League 2024.",
-    github: "https://github.com/yourusername/shopdog"
+    github: "https://github.com/fullstakdeveloper/Shopping-System-NeoDev-2nd-Place-"
   }
 ];
 
